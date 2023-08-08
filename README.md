@@ -2,7 +2,8 @@
 Virtual_Trial_Room_ECartom_ECart
 A real-time virtual dressing room system that enables users to try on clothes virtually. The system consists of multiple tasks, including face detection from a video stream, model alignment, approximation of torso and lower body positions based on face detection, and dress-up using image processing techniques.
 
-#Motivation
+# Motivation
+Motivation
 MICROSOFT, among its various innovative products, introduced the Kinect, showcasing its potential applications. One of the applications presented was the Virtual Dressing Room, which addressed a similar problem statement. However, the existing model was limited to showrooms that could afford and possess the Kinect setup. To overcome these technical and hardware barriers, we developed a product that allows any user with a basic RGB camera on their device to experience a virtual dressing room. This extends the application to online shopping users and smaller businesses that may not have opted for the costly Kinect.
 
 Day-to-Day Implementation and Touchless Shopping
@@ -16,8 +17,11 @@ Contactless Try-On Experience: Customers can virtually try on clothes without ph
 Enhanced Convenience: Users can try on different combinations of shirts and pants from the comfort of their homes, saving time and effort compared to traditional trial rooms.
 Improved Decision-Making: The system allows customers to visualize how different clothing items will look on them, facilitating better decision-making and reducing the chances of purchasing unsuitable items.
 Increased Customer Engagement: Virtual trial rooms provide an interactive and engaging shopping experience, attracting and retaining customers through innovative technology.
-Business Expansion Opportunities: Smaller businesses that may not have the resources to set up physical trial rooms or afford expensive equipment like the Kinect can now offer virtual trial room experiences, expanding their reach and attracting a broader customer base.
-#Use Instructions
+Business Expansion Opportunities: Smaller businesses that may not have the resources to set up physical trial rooms or afford expensive equipment like the Kinect can now offer virtual trial room experiences, expanding their reach and attracting a broader customer base. 
+
+
+# Use Instructions
+Use Instructions
 To use the virtual trial room model, follow these instructions:
 
 Install the required dependencies by running the following commands:
@@ -32,10 +36,17 @@ On the main page, you will find a navbar with options to explore various shirts 
 
 Select the desired shirt and pant combinations, and click on "Predict" to see the result.
 
+Then choose the next option 'purchase', they you will be directed to a page showing the items available, select required item and submit it, you will get a qr code for directing to payment. 
+
+
+# Prerequisites
 Prerequisites
+
 To use the virtual trial room model, you need the following:
 
 Webcam or an RGB camera on your device.
+
+# Technologues used
 Technologies Used
 The virtual trial room model utilizes the following technologies:
 
